@@ -8,7 +8,7 @@ router.get("/", function (req, res, next) {
     text: "Check the available routes and hit the appropiate once",
     routes: {
       "Declaration screen assignment":
-        "http://localhost:5000/assignment/declarations",
+        "http://localhost:10203/assignment/declarations",
     },
   });
 });
