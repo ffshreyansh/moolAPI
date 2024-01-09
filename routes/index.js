@@ -5,7 +5,11 @@ var router = express.Router();
 router.get("/", function (req, res, next) {
   res.json({
     title: "Mool assignment server",
-    text: "hit the /assignment routes for assigment payload",
+    text: "Check the available routes and hit the appropiate once",
+    routes: {
+      "Declaration screen assignment":
+        "http://localhost:5000/assignment/declarations",
+    },
   });
 });
 
